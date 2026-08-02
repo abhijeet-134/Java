@@ -14,7 +14,7 @@ public class Assignment17 {
     }
 }
 
-
+// Prints Number from 1 to N
 // public class Assignment17 {
 //     public static void main(String args[]) {
 //         Scanner sc = new Scanner(System.in);
