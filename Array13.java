@@ -1,15 +1,15 @@
 import java.util.*;
 
-// // Best to Buy And Sell Stock
 public class Array13 {
     public static int buyAndSellStock(int prices[]) {
         int buyPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
-
         for(int i=0; i<prices.length; i++) {
             if(buyPrice < prices[i]) {
                 int profit = prices[i] - buyPrice;
-                maxProfit = Math.max(maxProfit, profit);
+                if(maxProfit < profit) {
+                    maxProfit = profit;
+                }
             }else {
                 buyPrice = prices[i];
             }
@@ -23,4 +23,3 @@ public class Array13 {
 
     }
 }
-
