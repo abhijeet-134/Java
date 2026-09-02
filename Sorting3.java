@@ -1,5 +1,6 @@
 import java.util.*;
 
+// Selection Sort Code 
 public class Sorting3 {
     public static void SelectionSort(int arr[]) {
         for(int i=0; i<arr.length-1; i++) {
