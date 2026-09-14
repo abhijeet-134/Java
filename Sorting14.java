@@ -5,7 +5,7 @@ public class Sorting14 {
         int smallest = Integer.MAX_VALUE;
         for(int i=0; i<matrix.length; i++) {
             for(int j=0; j<matrix[0].length; j++) {
-                smallest = Math.min(largest, matrix[i][j]);
+                smallest = Math.min(smallest, matrix[i][j]);
             }
         }
         System.out.print("smallest element is : " + smallest);
