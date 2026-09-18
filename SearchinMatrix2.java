@@ -5,7 +5,7 @@ public class SearchinMatrix2 {
         int rows = matrix.length-1;
         int cols = 0;
 
-        while(rows >= 0 && cols < matrix.length) {
+        while(rows >= 0 && cols < matrix[0].length) {
             if(matrix[rows][cols] == key) {
                 System.out.println("Key found at (" + rows + "," + cols + ")");
                 return true;
