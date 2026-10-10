@@ -5,7 +5,7 @@ public class PowXN {
         long binForm = n;
         double ans = 1.0;
         double base = x;
-    
+
         if(n < 0) {
             base = 1.0/base;
             binForm = -binForm;
